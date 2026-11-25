@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 import os
 
 def main():
@@ -7,7 +8,7 @@ def main():
     entry_path = os.path.join(output_dir, 'entry.txt')
 
     # Original one-liner: surprising, concise, fresh
-    line = "My therapist says I have a preoccupation with vengeance. We'll see about that."
+    line = "I tried to be a photographer... now I'm always in the darkroom."
 
     with open(entry_path, 'w', encoding='utf-8') as f:
         f.write(line)
